@@ -16,6 +16,10 @@ html, body {
 	align-items: center;
 }
 
+img {
+	opacity: 0;
+}
+
 .card {
 	width: 100px;
 	height: 100px;
@@ -26,14 +30,6 @@ html, body {
 
 }
 
-.rear {
-	width: 100px;
-	height: 100px;
-	border: 2px solid white;
-	margin: 4px;
-	background-color: blue;
-	flex: 0 1 calc(18% - 8px);
-}
 
 @media (max-width: 600px) {
 	.board {
