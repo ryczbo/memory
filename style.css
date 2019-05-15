@@ -5,6 +5,8 @@ html, body {
 	align-items: center;
 	background-color: #01a526;
 	align-content: space-around;
+	text-align: center;
+	font-family: 'Cambria';
 }
 
 .board {
@@ -14,6 +16,12 @@ html, body {
 	align-content: space-around;
 	width: 600px;
 	align-items: center;
+	text-align: center;
+	margin-left: 2rem;
+}
+
+img {
+	opacity: 0;
 }
 
 .card {
@@ -26,17 +34,11 @@ html, body {
 
 }
 
-.rear {
-	width: 100px;
-	height: 100px;
-	border: 2px solid white;
-	margin: 4px;
-	background-color: blue;
-	flex: 0 1 calc(18% - 8px);
-}
 
 @media (max-width: 600px) {
 	.board {
 		width: 100%;
+		margin-left: auto;
 	}
 }
+
